@@ -1,0 +1,74 @@
+#animalFacts{
+    width: 375px;
+    height:460px;
+    overflow:hidden;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   
+   header {
+       background-color: #090832;
+       width: 100%;
+       height: 93px;
+       color: white;
+   }
+   
+   section {
+       display: flex;
+       flex-direction: column;
+       padding: 24px;
+       width: 280px;
+   
+   }
+   
+   button {
+       background-color: white;
+       width: 153px;
+       height:35px;
+       border-radius:10px;
+       border:none;
+       margin:5px;
+       filter: drop-shadow(0.15em 0.15em 0.15em rgb(165, 164, 164));
+   }
+   
+   
+   #bgElem {
+       top:93px;
+       position:absolute;
+       z-index:-1;
+       width: 375px;
+       height:367px;
+       background-size: cover;
+       background-color: darkBlue;
+   }
+   
+   h1 {
+       font-size: 1em;
+   }
+   
+   .innerBox {
+       height: 330px;
+       position:absolute;
+       opacity: 0.75;
+       top: 108px;
+       left: 30px;
+       width: 334px;
+   
+       background-color: white;
+       border-radius: 20px;
+       z-index: -1;
+       border: 1px solid gray;
+   }
+/*    
+   #whiteBox {
+
+   } */
+
+   .container{
+       overflow:hidden;
+       margin-top: 108px;
+   }
+   

@@ -1,0 +1,16 @@
+{{> header }}
+<div id="bgElem"> </div> 
+<div class="container"> 
+    
+    {{#each barncleFacts}}
+    <div>
+        <div id="whiteBox" class="innerBox"> </div> 
+        <section>
+                <h1>{{this.fact}}</h1>
+                <p> {{this.details}} </p>
+        </section>
+    {{/each}}
+    </div>
+
+</div>
+
